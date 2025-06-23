@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Study</title>
+    
+
+     <link rel="shortcut icon" href="Icon/Icon Core.png" type="image/x-icon">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+
+     <link rel="hamburger stylesheet" href="hamburgers.css">
+    <link rel="stylesheet" href="landingstyle.css" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="containerhdr animate-fadein">
+            <nav>
+                <div class="logo">
+                    <img src="Logo/CoretexLogoPrimary.svg" alt="Cortex Data Indonesia Logo Primary">
+                </div>
+                <div>
+                    <ul class="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#Product">Services</a>
+                        <li><a href="casestudy.html">Case Study</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="ctaBtn">
+                    <a href="#" class="contact-us-btn">Contact Us</a>
+
+                    <button class="hamburger hamburger--collapse" type="button">
+                        <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                        </span>
+                     </button>          
+                </div>
+            </nav>  
+        </div>
+    </header>
+
+    <div class="container-bannercontact animate-fadein">
+        <div class="bannercontact">
+            <div class="herocontact-content">
+                <h1>CONTACT US</h1>
+            </div>
+        </div>
+    </div>
+    
+<section class="contact-form animate-fadein">
+  <div class="form-container">
+    <div class="form-info">
+      <h2>Contact Us Form</h2>
+      <p>Our friendly team would love to hear from you.</p>
+
+      <form id="contact-form">
+        <label>Full Name</label>
+        <input type="text" name="fullname" placeholder="Full Name" required>
+
+        <label>Email</label>
+        <input type="email" name="email" placeholder="your@email.com" required>
+
+        <label>Phone number</label>
+        <input type="tel" name="phone" placeholder="+62 812 3456 7890" required>
+
+        <label>Message</label>
+        <textarea name="message" rows="4" placeholder="Type something..." required></textarea>
+
+        <button type="submit">Send message</button>
+      </form>
+    </div>
+
+    <div class="map animate-fadein">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.184967051241!2d106.82989237475068!3d-6.239335693748948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3c2f78e1417%3A0x6e69dc9146860164!2sPT%20Surveyor%20Indonesia!5e0!3m2!1sid!2sid!4v1750654668247!5m2!1sid!2sid"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+
+<footer class="container-footer animate-fadein">
+    <div class="container-logo">
+    <img src="Logo/White Logo-Coretax.svg" alt="White Logo Coretax">
+    </div>
+    <div class="container-content">
+        <div class="Location">
+            <p>Graha Surveyor Indonesia, Lantai 15, Unit 1503, Jl. Jendral Gatot Subroto, Kav 56, Kel. Kuningan Timur, Kec. Setiabudi, Kota Jakarta Selatan, Provinsi DKI Jakarta, Kode Pos: 12950</p>
+        </div>
+
+        <div class="menu-footer">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#index.html#Product">Services</a></li>
+                <li><a href="index.html#about">About</a></li>
+            </ul>
+        </div>
+
+        <div class="menu-footer">
+            <ul>
+                <li><a href="casestudy.html">Case Study</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="container-sosmed">
+            <div class="social-item">
+                <img src="Icon/mdi_gmail.svg" alt="Email Icon"> 
+                <div class="item-email">
+                <a href="mailto:admin@cortex-data.com">admin@cortex-data.com</a>
+                <a href="mailto:cortexdataid@gmail.com">admin@cortex-data.com</a>
+                </div>
+            </div>
+
+            <div class="social-item">
+                <img src="Icon/mingcute_instagram-fill.svg" alt="Instagram Icon">
+                <a href="https://www.instagram.com/cortex.data/">@cortex.data</a>
+            </div>
+            <div class="social-item">
+                <img src="Icon/X logo.svg" alt="X (Twitter) Icon">
+                <a href="https://x.com/cortexdataid">@cortexdataid</a>                
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+
+
+<script src="Javascripst/script.js"></script>
+
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  // Inisialisasi EmailJS
+  (function() {
+    emailjs.init("62ENwZDJUkIRO6agU"); // ganti dengan Public Key kamu dari EmailJS
+  })();
+</script>
+
+
+
+</body>
+
+</html>
