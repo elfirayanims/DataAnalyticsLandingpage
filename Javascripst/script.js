@@ -10,9 +10,9 @@ document.addEventListener("DOMContentLoaded", function () {
   const banner = document.getElementById("banner");
 
   const images = [
-    "/Image/Banner1.png",
-    "/Image/Banner2.png",
-    "/Image/Banner3.png"
+    "Image/Banner1.png",
+    "Image/Banner2.png",
+    "Image/Banner3.png"
   ];
 
   // Preload all images
